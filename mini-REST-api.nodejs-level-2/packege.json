@@ -1,7 +1,0 @@
-{
-    "name": "mini-rest-api",
-    "version": "0.0.1",
-    "author": "Olaru P.",
-    "license": "URL",
-    "main": "server/index.js"
-}
