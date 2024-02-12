@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI - REST - API</title>
+    <style>
+        body{
+            background: #333;
+        }
+        a{
+            color: #CCC;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+
+    <h2>API endpoints</h2>
+
+    <ul>
+        <li><a href="/products/all">All products</a></li>
+        <ul style="margin-bottom: 15px;">
+            <li><h3 style="margin-bottom: 5px;">Details</h3></li>
+            <li><a href="/products/details?id=1">product 1</a></li>
+            <li><a href="/products/details?id=2">product 2</a></li>
+            <li><a href="/products/details?id=3">product 3</a></li>
+        </ul>
+        <li><a href="/products/delete">delete</a></li>
+        <li><a href="/products/save">save</a></li>
+    </ul>
+</body>
+</html>
